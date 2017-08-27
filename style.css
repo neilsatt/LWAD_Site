@@ -1,16 +1,58 @@
 body {
-    background: lightcyan;
-    width: 800px;
-    margin: auto;
+  background-color: blanchedalmond;
 }
 
-h1 {
-    color: maroon;
-    text-align: center;
+header, main, footer {
+  min-width: 855px;
 }
 
-p {
-    color: gray;
-    border: 1px solid gray;
-    padding: 10px;
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
 }
+
+header {
+  background-color: floralwhite;
+  overflow: auto;
+}
+
+
+/* left column */
+header h1 {
+  float: left;
+  width: 570px;
+}
+
+main .left {
+  float: left;
+  width: 570px;
+}
+
+footer .left {
+  float: left;
+  width: 570px;
+}
+
+
+/* right column */
+header nav {
+  float: right;
+  width: 285px;
+}
+
+main .right {
+  float: right;
+  width: 285px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
+
+main {
+  overflow: auto;
+  background-color: floralwhite;
+}
+
+
